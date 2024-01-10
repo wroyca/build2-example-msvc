@@ -1,0 +1,6 @@
+*
+
+!.gitignore
+
+# Workspace settings.
+!.settings.json

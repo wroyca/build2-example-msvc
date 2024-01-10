@@ -1,0 +1,44 @@
+// Project configuration settings for IntelliSense.
+
+{
+  "configurations":
+  [
+    {
+      "name": "windows-msvc-x64 (debug)",
+      "intelliSenseMode": "windows-msvc-x64",
+      "compilerSwitches": "/std:c++latest",
+      "inheritEnvironments": [ "msvc_x64" ],
+
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+
+      "defines": [
+        "WIN32",
+        "_DEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ]
+    },
+
+    {
+      "name": "windows-msvc-x64 (release)",
+      "intelliSenseMode": "windows-msvc-x64",
+      "compilerSwitches": "/std:c++latest",
+      "inheritEnvironments": [ "msvc_x64" ],
+
+      "includePath": [
+        "${env.INCLUDE}",
+        "${workspaceRoot}\\**"
+      ],
+
+      "defines": [
+        "WIN32",
+        "NDEBUG",
+        "UNICODE",
+        "_UNICODE"
+      ]
+    }
+  ]
+}

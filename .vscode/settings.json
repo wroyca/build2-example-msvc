@@ -1,0 +1,38 @@
+{
+  "files.exclude":
+  {
+    // Any file or folder that starts with a dot character.
+    //
+    "**/.*":              true,
+
+    // Local default options files.
+    //
+    ".build2/local/":     true,
+
+    // Compiler/linker output.
+    //
+    "**/*.d":             true,
+    "**/*.t":             true,
+    "**/*.i":             true,
+    "**/*.i.*":           true,
+    "**/*.ii":            true,
+    "**/*.ii.*":          true,
+    "**/*.o":             true,
+    "**/*.obj":           true,
+    "**/*.gcm":           true,
+    "**/*.pcm":           true,
+    "**/*.ifc":           true,
+    "**/*.so":            true,
+    "**/*.dylib":         true,
+    "**/*.dll":           true,
+    "**/*.a":             true,
+    "**/*.lib":           true,
+    "**/*.exp":           true,
+    "**/*.pdb":           true,
+    "**/*.ilk":           true,
+    "**/*.exe":           true,
+    "**/*.exe.dlls/":     true,
+    "**/*.exe.manifest":  true,
+    "**/*.pc":            true
+  }
+}

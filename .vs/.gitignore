@@ -1,0 +1,10 @@
+*
+!.gitignore
+
+# build commands, compiler switches, and arbitrary (non-build related) tasks.
+#
+!tasks.vs.json
+
+# Debug and launch Settings.
+#
+!launch.vs.json

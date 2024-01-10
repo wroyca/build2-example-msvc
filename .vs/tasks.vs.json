@@ -1,0 +1,37 @@
+{
+  "version": "0.2.1",
+  "tasks":
+  [
+    {
+      "taskLabel": "build",
+      "type": "default",
+      "contextType": "build",
+      "command": "b",
+      "appliesTo": "*",
+      "output": "${workspaceRoot}\\hello\\hello.exe"
+    },
+
+    {
+      "taskLabel": "rebuild",
+      "type": "default",
+      "contextType": "rebuild",
+      "command": "b",
+      "appliesTo": "*",
+      "args": [
+        "clean",
+        "update"
+      ]
+    },
+
+    {
+      "taskLabel": "clean",
+      "type": "default",
+      "contextType": "clean",
+      "command": "b",
+      "appliesTo": "*",
+      "args": [
+        "clean"
+      ]
+    }
+  ]
+}
